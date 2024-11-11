@@ -1,27 +1,28 @@
 {
-  "name": "prajanlat",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "aparajanlat",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start",
-    "build": "next build"
+    "lint": "next lint"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "@types/jspdf": "^2.0.0",
-    "@types/node": "^22.9.0",
-    "@types/react": "^18.3.12",
-    "html-to-image": "^1.11.11",
-    "jsx-pdf": "^2.3.0",
-    "next": "^15.0.3",
-    "normalize.css": "^8.0.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "typescript": "^5.6.3"
+    "@emotion/cache": "^11.13.1",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.1.6",
+    "@mui/material-nextjs": "^6.1.6",
+    "next": "14.1.1",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.1",
+    "typescript": "^5"
   }
 }
